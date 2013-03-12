@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../stylesheets/obtuse.css" type="text/css" />
+    <link rel="stylesheet" href="app.css" type="text/css" />
+  
+    <title>Hello World</title>
+  <body>
+
+  <div id="alert-modal" class="popup">
+    <h1 class="title"></h1>
+    <h2 class="message"></h2>
+    <hr />
+    <div class="actions">
+      <button class="close-popup cancel">Continue</button>
+    </div>
+  </div>
+
+  <div id="welcome-modal" class="popup">
+    <h1>Welcome <span class="friend-lbl">buddy</span>!</h1>
+    <h2>This is an example app.</h2>
+    <hr />
+    <button class="cancel close-popup">Close</button>
+  </div>
+
+  <div id="home-interface" class="interface">
+    <h3>What's your email?</h3>
+    <input type="text" name="friend" class="friend-input"></input>
+    <hr />
+    
+    <button type="button" class="save">Engage</button>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="../../scripts/ext/modal.js"></script>
+  <script type="text/javascript" src="../../scripts/obtuse.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>

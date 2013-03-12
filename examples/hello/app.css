@@ -1,0 +1,22 @@
+/*
+ * Simple modal plugin
+ */
+
+#simplemodal-overlay {
+  background: #000;
+}
+
+#simplemodal-container {
+  height: auto !important;
+  width: 600px;
+  top: 100px !important;
+  box-shadow: 4px 4px 20px #333;
+}
+
+.popup {
+  border: 1px solid #888;
+  background: #fff;
+  position: relative;
+  display: none;
+  padding: 0px 15px 15px;
+}
